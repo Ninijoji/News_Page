@@ -1,0 +1,99 @@
+.invalid {
+    border-color: #FF0000 !important;
+}
+
+.error-message {
+    color: #FF0000;
+    font-size: 14px;
+    margin-top: 4px;
+    display: block;
+}
+
+.form-group {
+    position: relative;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background: #FFFFFF;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666666;
+    font-size: 16px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+textarea {
+    height: 160px;
+    resize: vertical;
+}
+
+.form-row {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.form-row .form-group {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.form-actions {
+    margin-top: 40px;
+    text-align: right;
+}
+
+button {
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+.cancel-btn {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    color: #666666;
+}
+
+.save-btn {
+    background: #000000;
+    border: none;
+    color: #FFFFFF;
+}
+
+select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%23666666' stroke-width='1.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    padding-right: 36px;
+}

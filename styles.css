@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background: #FFFFFF;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 16px;
+    color: #666666;
+    font-weight: normal;
+    font-size: 16px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #EEEEEE;
+    font-size: 16px;
+    color: #000000;
+}
+
+.title-col {
+    width: 40%;
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.action-btn:hover {
+    background-color: #f5f5f5;
+}
+
+
+th .action-btn {
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.fade-out {
+    animation: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeOut {
+    from { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to { 
+        opacity: 0;
+        transform: translateY(-10px);
+        height: 0;
+        padding: 0;
+    }
+}
